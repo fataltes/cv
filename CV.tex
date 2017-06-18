@@ -1,0 +1,179 @@
+% Documentation an template for the NU-Math Vita class Version 0.4
+% Miguel A. Lerma (mlerma@math.northwestern.edu) - 2005/08/23
+%
+% Process it with the command ``latex filename''.
+%
+%
+% The document starts with
+% \documentclass{nuvita}
+%
+% or
+%
+% \documentclass[options]{nuvita}
+%
+% Possible options are: 10pt, 11pt, 12pt.
+% For instance:
+\documentclass[10pt,letterpaper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\usepackage{footmisc}
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage{url}
+\usepackage{graphicx}
+%\usepackage{multibib}
+\usepackage{lastpage}
+%\usepackage{hyperref}
+\rfoot{\addressfont\itshape\textcolor{gray}{Page \thepage\ of \pageref{LastPage}}}
+
+%\newcites{papers,talks,posters}{{Paper},{Invited Talks},{Posters}}
+
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+%\usepackage[sorting=ynt,backend=biber]{biblatex}
+%\bibliography{CV}
+
+\recomputelengths                             % required when changes are made to page layout lengths
+%%%%%%%%%%%%%%%%%%%% PERSONAL INFORMATION %%%%%%%%%%%%%%%%%%%
+
+% Here we enter some personal information.
+
+% % personal data
+\name{Fatemeh}{Almodaresi}
+
+%\title{CV}               % optional, remove the line if not wanted
+
+\address{244 New Computer Science Building}{Stony Brook University}{Stony Brook, NY 11794}
+
+\phone{(631) -- 974 -- 8156}                    % optional, remove the line if not wanted
+
+%\phone{phone (optional)}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+
+\email{falmodaresit@cs.stonybrook.edu}                      % optional, remove the line if not wanted
+\extrainfo{\url{https://www.linkedin.com/in/fataltes}\\
+  \url{https://github.com/fataltes}}
+%\photo[64pt]{images/me.png}
+
+%quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+%%%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%
+% Here the document begins.
+\begin{document}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%% PREDEFINED ENVIRONMENTS %%%%%%%%%%%%%%%%%%
+
+
+% The predefined environments print a large boldfaced title
+% (e.g.: ``Education:'') and arrange the information as a
+% table or list.
+
+%\begin{goals}
+%My goals are what they are...
+%\end{goals}
+
+\section{Research Interests}
+\cvline{}{Machine Learning, Pattern Recognition, and Data Analysis}
+%\cvline{}{Natural Language Processing}
+\cvline{}{Computational Biology}
+% Education environment. It is a table with fields separated by
+% andpersands (&), and lines separated by double backslashes (\\).
+\section{Education}
+%\cventry{}{}{}{}{}{}
+%GPA \textit{3.94}
+%GPA \textit{17.75/20}
+%GPA \textit{16.07/20}
+\cventry{2015-present}{Ph.D}{Computer Science Department, Stony Brook University (\httplink[SBU]{https://www.cs.stonybrook.edu/})}{NY, USA}{}{ Advisor -- Prof. Rob Patro}
+\cventry{2009-2011}{MS}{School of Computer Engineering, Iran University of Science and Technology (\httplink[IUST]{http://www.iust.ac.ir/index.php?sid=14&slc_lang=en})}{Tehran, Iran}{}{ Advisor -- Prof. Jahed Motlagh}
+\cventry{2004-2009}{BS}{School of Electrical \& Computer Engineering (\httplink[ECE]{http://ece.ut.ac.ir/en?destination=slide}), University of Tehran}{Tehran, Iran}{}{}
+
+\section{Research Projects}
+\cventry{Apr. 2016 - present}{A Tool to Optimize Colored de Bruijn Graph Storage}{}{Computational Biology Lab., SBU}{\newline{} Under the supervision of Prof. Rob Patro}{This tool provides a new data structure to store and query colored de Bruijn graph that in case of large data sets improves storage by more than twenty times compared to state-of-the-art tools without hurting performance of queries.}
+\cventry{Nov. 2016 - Mar. 2016}{RapClust}{``Rapid Clustering'' project}{Computational Biology Lab., SBU}{\newline{} Under the supervision of Prof. Rob Patro\newline{} \url{https://github.com/fataltes/RapClust_OrphanReads/tree/orphan}}{RapClust is a fast tool for clustering contigs of a de novo transcriptome assembly. In RapClust2 we focus on improving the accuracy of clustering by making use of orphaned reads.}
+\cventry{Jan 2017}{DDFactorization}{``Improving Transcript Abundance Estimation Using Eq. Class Factorization (A Data Driven Approach)'' project}{Computational Biology Lab., SBU}{\newline{} Under the supervision of Prof. Rob Patro\newline{}\url{https://github.com/COMBINE-lab/salmon/tree/factorizations}}{Exploring the effect that factorizations of the likelihood function can have on accurately estimating transcript abundance, and designing new efficient and accurate factorizations.}
+\cventry{Aug 2016-Jan 2017}{MLDD}{``Multi-Level Distribution Detection'' project}{Data Science Lab., SBU.}{\newline{}Under the Supervision of Professor Andrew Schwartz}{Using statistical tests and classification models such as NaiveBayes we show how distribution of NLP features in social media changes in different levels of analysis (county, user, and message). This can highly affect prior assumptions for further text analysis.}
+\cventry{2013-2014}{AutismFD}{``A game to improve face emotion detection in children with Autism'' project}{\newline{}Under the supervision of Professor Pouretemad}{}{Beside collaboration with psychology students to design the method, I also implemented the idea as a tool in C\# language. This package was used in a treatment center to collect validation data.}
+\cventry{2012-2013}{PersonalityMatcher}{``Improve students’ educational condition via detecting best friendship communities'' project}{IUST}{\newline{}Under the supervision of Professors Jahed \& Mozayani}{We designed and developed a multi-agent system in Netlogo environment based on NEO personality questionnaire.}
+
+%\section{Publications}
+%% Publications %%
+%\nocitepapers{}
+\nocite{*}
+%\nocite{
+%mzakeri:2017:factorization,
+%falmodaresit:2017:mldd,
+%falmodaresit:2014:personality
+%}
+%\bibliographystylepapers{plainyr-rev}
+%\bibliographypapers{papers}
+\bibliographystyle{plainyr-rev}
+\bibliography{papers}
+
+%\nocitetalks{}
+%\bibliographystyletalks{plainyr-rev}
+%\bibliographytalks{talks}
+
+%\nociteposters{}
+%\bibliographystyleposters{plainyr-rev}
+%\bibliographyposters{posters}
+
+
+\section{Work Experiences}
+\cventry{Jun-Aug 2016}{Member of the NLP Team}{Third Frederick Jelinek Memorial Summer Workshop (\httplink[JSALT]{http://www.clsp.jhu.edu/workshops/16-workshop/})}{Baltimore}{}{JSALT is a well-known summer workshop in Language and Speech organized by JHU each year.
+.\newline{}%
+During the project, we worked on analyzing and forecasting social media user’s psychological state based on their language in their posts using statistical methods such as significance tests and time series models such as ARMA and ARIMA.}
+\cventry{Jan-Aug 2015}{Senior Designer and Developer}{\httplink[Nexeven AB]{http://www.nexeven.com/}}{}{}{Nexeven AB is a Swedish company and a niche player in the online video broadcasting field.}
+\cventry{2011-2015}{Team Supervisor, Senior Designer and Developer}{Tosan Intelligent Data Miners Co. (\httplink[TIDM]{http://www.tosanidm.ir/})}{}{Data Mining Development Team}{TIDM is the first solution provider for fraud detection and anti-money laundry in banking section in Iran, a Subsidiary of Tosan Company.
+%\newline{}%
+\begin{itemize}%
+\item \textbf{Customer Relationship Management System} [2014] \\
+In this project we use statistical and data mining methods to calculate customer`s RFM, CLV, and churn probability.
+\item \textbf{Data mining Module, Operational Intelligence System} [2014] \\
+This module, developed in PLSQL, uses Statistical and Mining Methods such as regression models, error functions, k-means, and SVM to detect fraudulent transactions online in the stream of transactions.
+\item \textbf{Customer Name Similarity Detection Module} [2013] \\
+As a part of Anti-money Laundry System, this module uses natural language algorithms to detect accounts with similar names. The whole system is developed in PLSQL and now operational in many private banks in Iran including \httplink[Eghtesad-Novin]{http://english.enbank.ir/} and Ansar Bank.
+\item \textbf{Unsupervised Fraud Detection System, Version 1 \& 2} [2011-2014] \\
+Version 1 which is fully designed and developed by myself is now operational in \httplink[Saman]{http://sb24.ir/En/Business/index.html} Bank, \httplink[Ansar]{http://www.ansarbank.com/EnHome.aspx} Bank, and \httplink[Mehr-e-Eghtesad]{http://www.mebank.ir/} Bank in Iran. Version 2 is now installed in \httplink[Eghtesad-Novin]{http://english.enbank.ir/} Bank.
+\end{itemize}}
+\cventry{2009-2011}{Java and UI Developer }{\httplink[Tosan]{http://tosan.com/en/default.aspx} Co}{}{}{Tosan Company is a pioneer company for total banking solutions with more than fifteen Iranian financial institutes in its customer list. As a member of a team of nearly 20 people, I participated in developing the UI of Internet banking system.}
+
+\section{Honors \& Awards}
+\cventry{2016}{CS Department Best TA Award}{}{}{}{}
+\cventry{2015}{Special CS Department Chair Fellowship}{}{}{}{}
+
+% \section{\printbibheading}
+% \printbibliography[heading=subbibliography]
+
+% \fullcite{phillippy:2009:dsim}\\
+% \fullcite{Sankaranarayanan:2009:fview}\\
+% \fullcite{patro:2009:sf-detection}\\
+% \fullcite{patro:2009:sg-keyframe}\\
+% \fullcite{maximo:2010:sample}\\
+% \fullcite{patro:2010:social-snapshot}\\
+% \fullcite{patro:2010:m3}\\
+
+\section{Teaching Experiences}
+\cventry{Spring 2017}{Teaching Assistant}{Machine Learning}{Stony Brook University}{}{}
+\cventry{2013}{Teacher}{C++ Programming Language}{Farzanegan High School [\httplink[NODET]{http://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents}]}{}{}
+\cventry{2013}{Teacher}{Developing simple motion detection algorithms in MATLAB}{Farzanegan High School [\httplink[NODET]{http://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents}]}{}{}
+\cventry{Fall 2008}{Teaching Assistant}{Artificial intelligence}{University of Tehran}{}{}
+
+% Employment environment. It is a description list.
+% Use ``\bl'' to break a line.
+
+\section{Skills}
+\cventry{Programming Languages}{Python (expert), Java Core(expert), C++ (familiar), R (familiar), MATLAB (familiar), NetLogo (familiar), C\# (familiar)}{}{}{}{}
+\cventry{Libraries and Frameworks}{Standard Python Libraries (numpy, pandas, scipy.stats, sklearn), Spring Framework, Hibernate, Play Framework}{}{}{}{}
+\cventry{Databases}{Oracle (expert), MySQL (expert), MongoDB (familiar)}{}{}{}{}
+\cventry{Other Tools}{IntelliJ IDEA, Pycharm, Jupyter Notebook, git, Atlassian Jira, Atlassian Confluence, ThoughtWorks Go, Anaconda Platform}{}{}{}{}
+
+\section{Extracurricular Activities \& Interests}
+\cventry{2010-present}{Playing Classical Guitar}{}{}{}{}
+\cventry{2002}{Organized a Provincial Seminar about Women, their Activities, and Prospers with Collaboration of Yazd Governor}{}{Yazd, Iran}{}{}
+\cventry{2001-2004}{Playing Basketball}{Awarded Second Rank in Yazd Province}{Yazd, Iran}{}{}
+\end{document}
