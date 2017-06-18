@@ -4,14 +4,20 @@
 M.~Zakeri, A.~Srivastava, F.~Almodaresi, and R.~Patro.
 \newblock Data driven likelihood factorizations improve lightweight transcript
   abundance estimation.
-\newblock 2017.
+\newblock April 2017.
 \newblock Accepted in ISMB 2017.
 
 \bibitem{falmodaresit:2017:mldd}
 F.~Almodaresi, L.~Ungar, V.~Kulkarni, M.~Zakeri, S.~Giorgi, and H.A. Schwartz.
 \newblock On the distribution of lexical features in social media.
-\newblock 2017.
+\newblock March 2017.
 \newblock Accepted in ACL 2017.
+
+\bibitem{falmodaresit:2017:rainbowfish}
+F.~Almodaresi, P.~Pandey, and R.~Patro.
+\newblock Rainbowfish, a succinct colored de bruijn graph.
+\newblock June 2017.
+\newblock Accepted in WABI 2017.
 
 \bibitem{falmodaresit:2014:personality}
 F.~Almodaressi, N.~Mozayani, M.R. Jahed, and M.~Ahmadi.

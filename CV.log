@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.28)  30 APR 2017 09:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.28)  18 JUN 2017 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1323,10 +1323,10 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 80.
 (./CV.bbl [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2]
 
 AED: lastpage setting LastPage
-[2]
+[3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (./CV.aux)
@@ -1336,11 +1336,11 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: 700F5694EABE5778A8D9BE3C1960D8C9;1175.
  ) 
 Here is how much of TeX's memory you used:
- 28727 strings out of 493013
- 527613 string characters out of 6135682
- 596802 words of memory out of 5000000
- 31804 multiletter control sequences out of 15000+600000
- 60028 words of font info for 72 fonts, out of 8000000 for 9000
+ 28732 strings out of 493013
+ 527706 string characters out of 6135682
+ 596853 words of memory out of 5000000
+ 31805 multiletter control sequences out of 15000+600000
+ 60111 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,58p,10354b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
@@ -1353,10 +1353,10 @@ type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro9.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmtto10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosy
 m/marvosym.pfb>
-Output written on CV.pdf (2 pages, 339564 bytes).
+Output written on CV.pdf (3 pages, 341177 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
- 15 named destinations out of 1000 (max. 500000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
  21077 words of extra memory for PDF output out of 24883 (max. 10000000)
 
