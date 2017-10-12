@@ -1,29 +1,34 @@
 \begin{thebibliography}{1}
 
-\bibitem{mzakeri:2017:factorization}
-M.~Zakeri, A.~Srivastava, F.~Almodaresi, and R.~Patro.
-\newblock Data driven likelihood factorizations improve lightweight transcript
+\bibitem{zakeri2017improved}
+Mohsen Zakeri, Avi Srivastava, Fatemeh Almodaresi, and Rob Patro.
+\newblock Improved data-driven likelihood factorizations for transcript
   abundance estimation.
-\newblock April 2017.
-\newblock Accepted in ISMB 2017.
+\newblock {\em Bioinformatics}, 33(14):i142--i151, 2017.
+\newblock (appeared in the proceedings of ISMB 2017).
 
-\bibitem{falmodaresit:2017:mldd}
-F.~Almodaresi, L.~Ungar, V.~Kulkarni, M.~Zakeri, S.~Giorgi, and H.A. Schwartz.
-\newblock On the distribution of lexical features in social media.
-\newblock March 2017.
-\newblock Accepted in ACL 2017.
+\bibitem{almodaresi2017distribution}
+Fatemeh Almodaresi, Lyle Ungar, Vivek Kulkarni, Mohsen Zakeri, Salvatore
+  Giorgi, and H~Andrew Schwartz.
+\newblock On the distribution of lexical features at multiple levels of
+  analysis.
+\newblock In {\em Proceedings of the 55th Annual Meeting of the Association for
+  Computational Linguistics (Volume 2: Short Papers)}, volume~2, pages 79--84,
+  2017.
 
-\bibitem{falmodaresit:2017:rainbowfish}
-F.~Almodaresi, P.~Pandey, and R.~Patro.
-\newblock Rainbowfish, a succinct colored de bruijn graph.
-\newblock June 2017.
-\newblock Accepted in WABI 2017.
+\bibitem{almodaresi_et_al:LIPIcs:2017:7657}
+Fatemeh Almodaresi, Prashant Pandey, and Rob Patro.
+\newblock {Rainbowfish: A Succinct Colored de Bruijn Graph Representation}.
+\newblock In {\em 17th International Workshop on Algorithms in Bioinformatics
+  (WABI 2017)}, volume~88 of {\em Leibniz International Proceedings in
+  Informatics (LIPIcs)}, pages 18:1--18:15, 2017.
 
 \bibitem{falmodaresit:2014:personality}
-F.~Almodaressi, N.~Mozayani, M.R. Jahed, and M.~Ahmadi.
+Fatemeh Almodaresi, Naser Mozayani, Mohammadreza Jahed~Motlagh, and Meisam
+  Ahmadi.
 \newblock The relation between friendship and academic performance in
   university students: Role of personality.
-\newblock {\em Journal of Technology of Education}, 8(2):81--92, 1392.
-\newblock In Persian.
+\newblock {\em Journal of Technology of Education}, 8(2):81--92, 2013.
+\newblock (in Persian).
 
 \end{thebibliography}

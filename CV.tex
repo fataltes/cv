@@ -27,6 +27,7 @@
 %\usepackage{multibib}
 \usepackage{lastpage}
 %\usepackage{hyperref}
+\usepackage{comment}
 \rfoot{\addressfont\itshape\textcolor{gray}{Page \thepage\ of \pageref{LastPage}}}
 
 %\newcites{papers,talks,posters}{{Paper},{Invited Talks},{Posters}}
@@ -93,11 +94,13 @@
 \cventry{2004-2009}{BS}{School of Electrical \& Computer Engineering (\httplink[ECE]{http://ece.ut.ac.ir/en?destination=slide}), University of Tehran}{Tehran, Iran}{}{}
 
 \section{Research Projects}
-\cventry{Apr. 2016 - present}{A Tool to Optimize Colored de Bruijn Graph Storage}{}{Computational Biology Lab., SBU}{\newline{} Under the supervision of Prof. Rob Patro}{This tool provides a new data structure to store and query colored de Bruijn graph that in case of large data sets improves storage by more than twenty times compared to state-of-the-art tools without hurting performance of queries.}
-\cventry{Nov. 2016 - Mar. 2016}{RapClust}{``Rapid Clustering'' project}{Computational Biology Lab., SBU}{\newline{} Under the supervision of Prof. Rob Patro\newline{} \url{https://github.com/fataltes/RapClust_OrphanReads/tree/orphan}}{RapClust is a fast tool for clustering contigs of a de novo transcriptome assembly. In RapClust2 we focus on improving the accuracy of clustering by making use of orphaned reads.}
-\cventry{Jan 2017}{DDFactorization}{``Improving Transcript Abundance Estimation Using Eq. Class Factorization (A Data Driven Approach)'' project}{Computational Biology Lab., SBU}{\newline{} Under the supervision of Prof. Rob Patro\newline{}\url{https://github.com/COMBINE-lab/salmon/tree/factorizations}}{Exploring the effect that factorizations of the likelihood function can have on accurately estimating transcript abundance, and designing new efficient and accurate factorizations.}
-\cventry{Aug 2016-Jan 2017}{MLDD}{``Multi-Level Distribution Detection'' project}{Data Science Lab., SBU.}{\newline{}Under the Supervision of Professor Andrew Schwartz}{Using statistical tests and classification models such as NaiveBayes we show how distribution of NLP features in social media changes in different levels of analysis (county, user, and message). This can highly affect prior assumptions for further text analysis.}
-\cventry{2013-2014}{AutismFD}{``A game to improve face emotion detection in children with Autism'' project}{\newline{}Under the supervision of Professor Pouretemad}{}{Beside collaboration with psychology students to design the method, I also implemented the idea as a tool in C\# language. This package was used in a treatment center to collect validation data.}
+\cventry{Jun. 2017 - Present}{Pufferfish}{``A space and time-efficient compacted de Bruijn graph index''}{Computational Biology Lab., SBU}
+{\newline{} \url{https://github.com/COMBINE-lab/pufferfish}}{Pufferfish is an efficient data structure for indexing colored compacted de Bruijn graphs. This tool can achieve a balance between time and space resources by making use of succinct data structures and minimum perfect hash function. Pufferfish provides the underlying data structure for mapping short sequencing reads to a huge population of references while keeping the mapping information for each reference individually. Plan to submit to Recomb 2018.}
+\cventry{Apr. - Jun. 2017}{Rainbowfish}{``A succinct colored de Bruijn graph data structure''}{Computational Biology Lab., SBU}{\newline{} \url{https://github.com/COMBINE-lab/rainbowfish}}{This tool provides a new data structure to store and query colored de Bruijn graphs that in case of large data sets improves storage by more than twenty times compared to state-of-the-art tools without hurting performance of the queries.}
+\cventry{Jan 2017}{DDFactorization}{``Improving Transcript Abundance Estimation Using Eq. Class Factorization (A Data Driven Approach)''}{Computational Biology Lab., SBU}{\newline{}\url{https://github.com/COMBINE-lab/salmon/tree/factorizations}}{We design a new efficient and accurate factorization of likelihoods across equivalence classes of read fragments in \href{https://github.com/COMBINE-lab/salmon}{Salmon}, a transcript-level quantification estimation tool. Using the new model, the estimation accuracy improves significantly without hurting the run time.}
+\cventry{Nov. 2016 - Present}{Grouper}{An extension to ``Rapid Clustering'' tool}{Computational Biology Lab., SBU}{\newline{} \url{https://github.com/COMBINE-lab/grouper}}{Grouper, the extension of RapClust, is a tool for clustering contigs of a de novo transcriptome assembly. We improved the accuracy of clustering by making use of orphan reads, for which each end of the pair is mapped to a different reference sequence.}
+\cventry{Aug 2016-Jan 2017}{MLDD}{``Multi-Level Distribution Detection''}{Data Science Lab., SBU.}{}{Using statistical tests and classification models such as NaiveBayes we show how distribution of NLP features in social media changes in different levels of analysis (county, user, and message). This can highly affect prior assumptions for further text analysis as we show that central-limit theorem could be applied in social media language analysis as well.}
+\cventry{2013-2014}{AutismFD}{``A game to improve face emotion detection in children with Autism''}{}{}{Beside collaboration with psychology students to design the method, I also implemented the idea as a tool in C\# language. This package was used in a treatment center to help children with Autism to identify face emotions and track their progress over time.}
 %\cventry{2012-2013}{PersonalityMatcher}{``Improve students’ educational condition via detecting best friendship communities'' project}{IUST}{\newline{}Under the supervision of Professors Jahed \& Mozayani}{We designed and developed a multi-agent system in Netlogo environment based on NEO personality questionnaire.}
 
 %\section{Publications}
@@ -168,9 +171,9 @@ Version 1 which is fully designed and developed by myself is now operational in 
 
 \section{Skills}
 \cventry{Programming Languages}{Python (expert), Java Core(expert), C++ (familiar), R (familiar), MATLAB (familiar), NetLogo (familiar), C\# (familiar)}{}{}{}{}
-\cventry{Libraries and Frameworks}{Standard Python Libraries (numpy, pandas, scipy.stats, sklearn), Spring Framework, Hibernate, Play Framework}{}{}{}{}
+\cventry{Libraries and Frameworks}{Popular Python Libraries (numpy, pandas, scipy.stats, sklearn), ShinyR, Spring Framework, Hibernate, Play Framework}{}{}{}{}
 \cventry{Databases}{Oracle (expert), MySQL (expert), MongoDB (familiar)}{}{}{}{}
-\cventry{Other Tools}{IntelliJ IDEA, Pycharm, Jupyter Notebook, git, Atlassian Jira, Atlassian Confluence, ThoughtWorks Go, Anaconda Platform}{}{}{}{}
+\cventry{Other Tools}{Git, Atlassian Jira, Atlassian Confluence, ThoughtWorks Go, Anaconda Platform, Pycharm, Jupyter Notebook, IntelliJ IDEA}{}{}{}{}
 
 %\section{Extracurricular Activities \& Interests}
 %\cventry{2010-present}{Playing Classical Guitar}{}{}{}{}
