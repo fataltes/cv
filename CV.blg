@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: CV.aux
 The style file: plainyr-rev.bst
 Database file #1: papers.bib
-You've used 4 entries,
+You've used 6 entries,
             2146 wiz_defined-function locations,
-            534 strings with 5244 characters,
-and the built_in function-call counts, 2007 in all, are:
-= -- 194
-> -- 109
+            545 strings with 5667 characters,
+and the built_in function-call counts, 2708 in all, are:
+= -- 258
+> -- 166
 < -- 4
-+ -- 43
-- -- 38
-* -- 156
-:= -- 329
-add.period$ -- 14
-call.type$ -- 4
-change.case$ -- 29
++ -- 66
+- -- 58
+* -- 204
+:= -- 467
+add.period$ -- 22
+call.type$ -- 6
+change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 69
-empty$ -- 139
-format.name$ -- 38
-if$ -- 417
+cite$ -- 6
+duplicate$ -- 89
+empty$ -- 173
+format.name$ -- 58
+if$ -- 548
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 4
-newline$ -- 25
-num.names$ -- 12
-pop$ -- 31
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 37
+num.names$ -- 18
+pop$ -- 46
 preamble$ -- 1
-purify$ -- 25
+purify$ -- 38
 quote$ -- 0
-skip$ -- 59
+skip$ -- 75
 stack$ -- 0
-substring$ -- 134
-swap$ -- 27
+substring$ -- 145
+swap$ -- 29
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 16
+type$ -- 24
 warning$ -- 0
-while$ -- 21
-width$ -- 5
-write$ -- 52
+while$ -- 27
+width$ -- 7
+write$ -- 76

@@ -7,6 +7,13 @@ Mohsen Zakeri, Avi Srivastava, Fatemeh Almodaresi, and Rob Patro.
 \newblock {\em Bioinformatics}, 33(14):i142--i151, 2017.
 \newblock (appeared in the proceedings of ISMB 2017).
 
+\bibitem{Pandey217372}
+Prashant Pandey, Fatemeh Almodaresi, Michael~A. Bender, Michael Ferdman, Rob
+  Johnson, and Rob Patro.
+\newblock Mantis: A fast, small, and exact large-scale sequence search index.
+\newblock {\em bioRxiv}, 2017.
+\newblock Submitted to Recomb2018.
+
 \bibitem{almodaresi2017distribution}
 Fatemeh Almodaresi, Lyle Ungar, Vivek Kulkarni, Mohsen Zakeri, Salvatore
   Giorgi, and H~Andrew Schwartz.
@@ -15,6 +22,13 @@ Fatemeh Almodaresi, Lyle Ungar, Vivek Kulkarni, Mohsen Zakeri, Salvatore
 \newblock In {\em Proceedings of the 55th Annual Meeting of the Association for
   Computational Linguistics (Volume 2: Short Papers)}, volume~2, pages 79--84,
   2017.
+
+\bibitem{Almodaresi191874}
+Fatemeh Almodaresi, Hirak Sarkar, and Rob Patro.
+\newblock A space and time-efficient index for the compacted colored de bruijn
+  graph.
+\newblock {\em bioRxiv}, 2017.
+\newblock Submitted to Recomb2018.
 
 \bibitem{almodaresi_et_al:LIPIcs:2017:7657}
 Fatemeh Almodaresi, Prashant Pandey, and Rob Patro.
