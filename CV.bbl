@@ -1,5 +1,12 @@
 \begin{thebibliography}{1}
 
+\bibitem{Almodaresi191874}
+Fatemeh Almodaresi, Hirak Sarkar, and Rob Patro.
+\newblock A space and time-efficient index for the compacted colored de bruijn
+  graph.
+\newblock {\em bioRxiv}, 2018.
+\newblock Accepted to ISMB2018.
+
 \bibitem{zakeri2017improved}
 Mohsen Zakeri, Avi Srivastava, Fatemeh Almodaresi, and Rob Patro.
 \newblock Improved data-driven likelihood factorizations for transcript
@@ -12,7 +19,7 @@ Prashant Pandey, Fatemeh Almodaresi, Michael~A. Bender, Michael Ferdman, Rob
   Johnson, and Rob Patro.
 \newblock Mantis: A fast, small, and exact large-scale sequence search index.
 \newblock {\em bioRxiv}, 2017.
-\newblock Submitted to Recomb2018.
+\newblock Accepted to Recomb2018.
 
 \bibitem{almodaresi2017distribution}
 Fatemeh Almodaresi, Lyle Ungar, Vivek Kulkarni, Mohsen Zakeri, Salvatore
@@ -23,26 +30,11 @@ Fatemeh Almodaresi, Lyle Ungar, Vivek Kulkarni, Mohsen Zakeri, Salvatore
   Computational Linguistics (Volume 2: Short Papers)}, volume~2, pages 79--84,
   2017.
 
-\bibitem{Almodaresi191874}
-Fatemeh Almodaresi, Hirak Sarkar, and Rob Patro.
-\newblock A space and time-efficient index for the compacted colored de bruijn
-  graph.
-\newblock {\em bioRxiv}, 2017.
-\newblock Submitted to Recomb2018.
-
 \bibitem{almodaresi_et_al:LIPIcs:2017:7657}
 Fatemeh Almodaresi, Prashant Pandey, and Rob Patro.
 \newblock {Rainbowfish: A Succinct Colored de Bruijn Graph Representation}.
 \newblock In {\em 17th International Workshop on Algorithms in Bioinformatics
   (WABI 2017)}, volume~88 of {\em Leibniz International Proceedings in
   Informatics (LIPIcs)}, pages 18:1--18:15, 2017.
-
-\bibitem{falmodaresit:2014:personality}
-Fatemeh Almodaresi, Naser Mozayani, Mohammadreza Jahed~Motlagh, and Meisam
-  Ahmadi.
-\newblock The relation between friendship and academic performance in
-  university students: Role of personality.
-\newblock {\em Journal of Technology of Education}, 8(2):81--92, 2013.
-\newblock (in Persian).
 
 \end{thebibliography}
