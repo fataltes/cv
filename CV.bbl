@@ -1,11 +1,23 @@
 \begin{thebibliography}{1}
 
-\bibitem{Almodaresi191874}
-Fatemeh Almodaresi, Hirak Sarkar, and Rob Patro.
+\bibitem{pandey2018mantis}
+Prashant Pandey, Fatemeh Almodaresi, Michael~A Bender, Michael Ferdman, Rob
+  Johnson, and Rob Patro.
+\newblock Mantis: A fast, small, and exact large-scale sequence-search index.
+\newblock {\em Cell Systems}, 2018.
+
+\bibitem{malik2018grouper}
+Laraib Malik, Fatemeh Almodaresi, and Rob Patro.
+\newblock Grouper: Graph-based clustering and annotation for improved de novo
+  transcriptome analysis.
+\newblock {\em Bioinformatics}, 1:8, 2018.
+
+\bibitem{almodaresi2018space}
+Fatemeh Almodaresi, Hirak Sarkar, Avi Srivastava, and Rob Patro.
 \newblock A space and time-efficient index for the compacted colored de bruijn
   graph.
-\newblock {\em bioRxiv}, 2018.
-\newblock Accepted to ISMB2018.
+\newblock {\em Bioinformatics}, 34(13):i169--i177, 2018.
+\newblock (appeared in the proceedings of ISMB 2018).
 
 \bibitem{zakeri2017improved}
 Mohsen Zakeri, Avi Srivastava, Fatemeh Almodaresi, and Rob Patro.
@@ -13,13 +25,6 @@ Mohsen Zakeri, Avi Srivastava, Fatemeh Almodaresi, and Rob Patro.
   abundance estimation.
 \newblock {\em Bioinformatics}, 33(14):i142--i151, 2017.
 \newblock (appeared in the proceedings of ISMB 2017).
-
-\bibitem{Pandey217372}
-Prashant Pandey, Fatemeh Almodaresi, Michael~A. Bender, Michael Ferdman, Rob
-  Johnson, and Rob Patro.
-\newblock Mantis: A fast, small, and exact large-scale sequence search index.
-\newblock {\em bioRxiv}, 2017.
-\newblock Accepted to Recomb2018.
 
 \bibitem{almodaresi2017distribution}
 Fatemeh Almodaresi, Lyle Ungar, Vivek Kulkarni, Mohsen Zakeri, Salvatore
