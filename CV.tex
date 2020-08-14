@@ -82,7 +82,7 @@
 \section{Research Interests}
 \cvline{}{Computational Biology}
 \cvline{}{Algorithms and Data Structures}
-\cvline{}{Data Mining, Pattern Recognition, and Data Analysis}
+\cvline{}{Statistical Data Analysis and Probabilistic Modeling}
 %\cvline{}{Natural Language Processing}
 % Education environment. It is a table with fields separated by
 % andpersands (&), and lines separated by double backslashes (\\).
@@ -91,17 +91,18 @@
 %GPA \textit{3.94}
 %GPA \textit{17.75/20}
 %GPA \textit{16.07/20}
-\cventry{2019-present}{Ph.D}{Computer Science Department, University of Maryland (\httplink[UMD]{https://www.cs.umd.edu/})}{MD, US}{}{ Advisor -- Prof. Rob Patro}
+\cventry{2019-Aug 2020}{Ph.D}{Computer Science Department, University of Maryland (\httplink[UMD]{https://www.cs.umd.edu/})}{MD, US}{}{ Advisor -- Prof. Rob Patro}
 \cventry{2015-2019}{MS}{Computer Science Department, Stony Brook University (\httplink[SBU]{https://www.cs.stonybrook.edu/})}{NY, US}{}{ Advisor -- Prof. Rob Patro}
 \cventry{2004-2009}{BS}{School of Electrical \& Computer Engineering (\httplink[ECE]{http://ece.ut.ac.ir/en?destination=slide}), University of Tehran}{Tehran, Iran}{}{}
 
 \section{Selected Research Projects}
-\cventry{Aug. 2017 - Present}{Mantis}{``A fast, small, and exact large-scale sequence-search index''}{Computational Biology Lab., SBU}
-{\newline{} \url{https://github.com/splatlab/mantis}}{Mantis is a space and time efficient data structure to index and query large collections of raw sequencing read experiments. The index is based on colored de Bruijn graph representation and therefore supports graph traversal, bubble calling and other graph-based computational and biological analysis.}
-\cventry{Jun. 2017 - Jan. 2018}{Pufferfish}{``A space and time-efficient compacted de Bruijn graph index''}{Computational Biology Lab., SBU}
-{\newline{} \url{https://github.com/COMBINE-lab/pufferfish}}{Pufferfish is an efficient data structure for indexing colored compacted de Bruijn graphs. This tool can achieve a balance between time and space resources by making use of succinct data structures and minimum perfect hash function. Pufferfish provides the underlying data structure for mapping short sequencing reads to a huge population of references while keeping the mapping information for each reference individually. Plan to submit to Recomb 2018.}
+\cventry{Aug. 2017 - Present}{Mantis}{``A fast, small, and exact large-scale sequence-search index''}{Computational Biology Lab., SBU, UMD}
+{\newline{} \url{https://github.com/splatlab/mantis/tree/mergeMSTs}}{Mantis is a space and time efficient data structure to index and query large collections of raw sequencing read experiments.
+The index is based on colored de Bruijn graph representation and therefore supports graph-based operations such as graph traversal, and bubble calling useful for assembly and variation detection. In our recent work we have advanced the index to more than 30,000 raw read sequencing samples and enabled the nice feature of gradual growth by making the index incrementally updatable.}
+\cventry{Jun. 2017 - Aug. 2020}{Pufferfish and Puffaligner}{``A space and time-efficient compacted de Bruijn graph index and aligner''}{Computational Biology Lab., SBU, UMD}
+{\newline{} \url{https://github.com/COMBINE-lab/pufferfish/tree/develop}}{Pufferfish is an efficient data structure for indexing colored compacted de Bruijn graphs. This index achieves a balance between time and space resources by making use of succinct data structures and minimum perfect hash function. PuffAligner, our recent work, is a highly sensitive aligner on top of Pufferfish for aligning different types of short sequencing reads to a huge population of references, specifically good in the representation of high similarity in the reference sequences.}
 \cventry{Apr. - Jun. 2017}{Rainbowfish}{``A succinct colored de Bruijn graph data structure''}{Computational Biology Lab., SBU}{\newline{} \url{https://github.com/COMBINE-lab/rainbowfish}}{This tool provides a new data structure to store and query colored de Bruijn graphs that in case of large data sets improves storage by more than twenty times compared to state-of-the-art tools without hurting performance of the queries.}
-\cventry{Nov. 2016 - Apr. 2018}{Grouper}{An extension to ``Rapid Clustering'' tool}{Computational Biology Lab., SBU}{\newline{} \url{https://github.com/COMBINE-lab/grouper}}{Grouper is a tool for clustering contigs of a de novo transcriptome assembly. We improved the accuracy of clustering by making use of orphan reads, for which each end of the pair is mapped to a different reference sequence (accepted to Bioinformatics).}
+\cventry{Nov. 2016 - Apr. 2018}{Grouper}{An extension to ``Rapid Clustering'' tool}{Computational Biology Lab., SBU}{\newline{} \url{https://github.com/COMBINE-lab/grouper}}{Grouper is a tool for clustering contigs of a de novo transcriptome assembly. We improved the accuracy of clustering by making use of orphan reads, for which each end of the pair is mapped to a different reference sequence.}
 \cventry{Aug 2016-Jan 2017}{MLDD}{``Multi-Level Distribution Detection''}{Data Science Lab., SBU}{}{Using statistical tests and classification models such as NaiveBayes we show how distribution of NLP features in social media changes in different levels of analysis (county, user, and message). This can highly affect prior assumptions for further text analysis as we show that central-limit theorem could be applied in social media language analysis as well.}
 \cventry{2013-2014}{AutismFD}{``A game to improve face emotion detection in children with Autism''}{}{}{Beside collaboration with psychology students to design the method, I also implemented the idea as a tool in C\# language. This package was used in a treatment center to help children with Autism to identify face emotions and track their progress over time.}
 %\cventry{2012-2013}{PersonalityMatcher}{``Improve students’ educational condition via detecting best friendship communities'' project}{IUST}{\newline{}Under the supervision of Professors Jahed \& Mozayani}{We designed and developed a multi-agent system in Netlogo environment based on NEO personality questionnaire.}
@@ -178,9 +179,9 @@ Version 1 which is fully designed and developed by myself is now operational in 
 % Use ``\bl'' to break a line.
 
 \section{Skills}
-\cventry{Programming Languages}{C++ (expert), Python (expert), Java Core(expert), R (familiar), MATLAB (familiar), NetLogo (familiar), C\# (familiar)}{}{}{}{}
-\cventry{Libraries and Frameworks}{Popular Python Libraries (numpy, pandas, scipy.stats, sklearn), ShinyR, Spring Framework, Hibernate, Play Framework}{}{}{}{}
-\cventry{Databases}{Oracle (expert), MySQL (expert)}{}{}{}{}
+\cventry{Programming Languages}{C++ (expert), Python (expert), R (familiar), Java Core(expert), MATLAB (familiar), NetLogo (familiar), C\# (familiar), Rust (starter)}{}{}{}{}
+\cventry{Libraries and Frameworks}{Popular Python Libraries (numpy, pandas, scipy.stats, sklearn, matplotlib, and seaborn), ShinyR, Spring Framework, Hibernate}{}{}{}{}
+\cventry{Databases}{MySQL (expert), Oracle (expert)}{}{}{}{}
 \cventry{Other Tools}{Git, Jupyter Notebook, IntelliJ IDEA, CLion, Atlassian Jira, Atlassian Confluence, ThoughtWorks Go, Anaconda Platform, Pycharm}{}{}{}{}
 
 %\section{Extracurricular Activities \& Interests}
